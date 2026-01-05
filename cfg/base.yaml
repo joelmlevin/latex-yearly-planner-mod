@@ -2,7 +2,7 @@ weekstart: 1
 ampmtime: false
 dotted: true
 calafterschedule: false
-addlasthalfhour: true
+addlasthalfhour: false
 
 layout:
   paper:

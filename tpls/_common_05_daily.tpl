@@ -7,11 +7,11 @@
 \begin{minipage}[t]{\myLenTriCol}
   \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}%
-\raisebox{-1.5\myLenLineHeightButLine}{\color{lightgray}\vrule width 0.4pt height 3\myLenLineHeightButLine}%
+\raisebox{-0.5\myLenLineHeightButLine}{\color{lightgray}\vrule width 0.4pt height 3\myLenLineHeightButLine}%
 \begin{minipage}[t]{\myLenTriCol}
   \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}%
-\raisebox{-1.5\myLenLineHeightButLine}{\color{lightgray}\vrule width 0.4pt height 3\myLenLineHeightButLine}%
+\raisebox{-0.5\myLenLineHeightButLine}{\color{lightgray}\vrule width 0.4pt height 3\myLenLineHeightButLine}%
 \begin{minipage}[t]{\myLenTriCol}
   \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}
@@ -30,7 +30,8 @@
 \hspace{\myLenTriColSep}%
 \begin{minipage}[t]{\dimexpr2\myLenTriCol+\myLenTriColSep}
   \myUnderline{Tasks}
-  \Repeat{6}{\myTodoLineGray}
+  \Repeat{5}{\myTodoLineGray}
+  \myLineHeightButLine$\square$
   \vskip\dimexpr5.4mm
   \myUnderline{Notes $\vert$ {{ $today.LinkLeaf "More" "More" }}\hfill{}{{ $today.LinkLeaf "Reflect" "Reflect" }}\hfill{}\hyperlink{Notes Index}{All notes}}
   \myMash[\myDailySpring]{\myNumDailyNotes}{\myNumDotWidthTwoThirds}
