@@ -1,17 +1,17 @@
 {{- $today := .Body.Day -}}
 
-%% Full-width focus bar at top (3 equal columns with vertical separators, no lines)
+%% Full-width focus bar at top (3 equal columns, no delimiters)
 {\parskip=0pt\interlinepenalty=10000
 \myUnderline{Focus}
 \nobreak
 \begin{minipage}[t]{\myLenTriCol}
   \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}%
-{\color{lightgray}\vrule width 0.4pt height 4\myLenLineHeightButLine}%
+\hspace{\myLenTriColSep}%
 \begin{minipage}[t]{\myLenTriCol}
   \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}%
-{\color{lightgray}\vrule width 0.4pt height 4\myLenLineHeightButLine}%
+\hspace{\myLenTriColSep}%
 \begin{minipage}[t]{\myLenTriCol}
   \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}
