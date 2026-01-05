@@ -7,15 +7,11 @@
 \begin{minipage}[t]{\myLenTriCol}
   \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}%
-\begin{minipage}[c][4\myLenLineHeightButLine][c]{0.4pt}
-  {\color{lightgray}\rule{0.4pt}{3\myLenLineHeightButLine}}%
-\end{minipage}%
+{\color{lightgray}\vrule width 0.4pt height 4\myLenLineHeightButLine}%
 \begin{minipage}[t]{\myLenTriCol}
   \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}%
-\begin{minipage}[c][4\myLenLineHeightButLine][c]{0.4pt}
-  {\color{lightgray}\rule{0.4pt}{3\myLenLineHeightButLine}}%
-\end{minipage}%
+{\color{lightgray}\vrule width 0.4pt height 4\myLenLineHeightButLine}%
 \begin{minipage}[t]{\myLenTriCol}
   \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}
