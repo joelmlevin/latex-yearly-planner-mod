@@ -2,7 +2,7 @@ weekstart: 1
 ampmtime: false
 dotted: true
 calafterschedule: false
-addlasthalfhour: true
+addlasthalfhour: false
 
 layout:
   paper:
@@ -24,10 +24,10 @@ layout:
     quarterlylines: 36
     weeklylines: 11
     dailytodos: 8
-    dailynotes: 25
+    dailynotes: 20
     dailypersonal: 6
-    dailybottomhour: 7
-    dailytophour: 23
+    dailybottomhour: 6
+    dailytophour: 19
     dailydiarygoals: 10
     dailydiarygrateful: 4
     dailydiarybest: 4

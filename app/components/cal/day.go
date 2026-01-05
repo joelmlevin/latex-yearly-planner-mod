@@ -134,7 +134,7 @@ func (d Day) Hours(bottom, top int) Days {
 
 func (d Day) FormatHour(ampm interface{}) string {
 	if doAmpm, _ := ampm.(bool); doAmpm {
-		return d.Time.Format("3 PM")
+		return d.Time.Format("03")
 	}
 
 	return d.Time.Format("15")
