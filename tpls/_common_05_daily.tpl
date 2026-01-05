@@ -1,7 +1,7 @@
 {{- $today := .Body.Day -}}
 
 %% Full-width focus bar at top (3 equal columns, no labels)
-{\parskip=0pt
+{\parskip=0pt\interlinepenalty=10000
 \myUnderline{Focus}
 \nobreak
 \begin{minipage}[t]{\myLenTriCol}
@@ -22,8 +22,7 @@
   \vskip\myLenLineHeightButLine\myLineGray
 \end{minipage}
 \par}
-\vspace{2mm}
-\nobreak
+\nobreak\vspace*{2mm}\nobreak
 
 %% Two-column section below (schedule + tasks/notes)
 \begin{minipage}[t]{\myLenTriCol}
