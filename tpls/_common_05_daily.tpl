@@ -21,7 +21,9 @@
   \vskip\myLenLineHeightButLine\myLineGray
 \end{minipage}
 
+\nopagebreak
 \vspace{3mm}
+\nopagebreak
 
 %% Two-column section below (schedule + tasks/notes)
 \begin{minipage}[t]{\myLenTriCol}
