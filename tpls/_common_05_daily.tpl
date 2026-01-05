@@ -1,8 +1,7 @@
 {{- $today := .Body.Day -}}
 
 %% Full-width focus bar at top (3 equal columns, no labels)
-\myUnderline{Focus}
-
+\myUnderline{Focus}\nopagebreak
 \begin{minipage}[t]{\myLenTriCol}
   \vskip\myLenLineHeightButLine\myLineGray
   \vskip\myLenLineHeightButLine\myLineGray
