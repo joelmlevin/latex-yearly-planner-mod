@@ -5,15 +5,15 @@
 \myUnderline{Focus}
 \nobreak
 \begin{minipage}[t]{\myLenTriCol}
-  \rule{0pt}{3\myLenLineHeightButLine}%
+  \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}%
-{\color{lightgray}\vrule width 0.4pt}%
+\raisebox{-1.5\myLenLineHeightButLine}{\color{lightgray}\vrule width 0.4pt height 3\myLenLineHeightButLine}%
 \begin{minipage}[t]{\myLenTriCol}
-  \rule{0pt}{3\myLenLineHeightButLine}%
+  \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}%
-{\color{lightgray}\vrule width 0.4pt}%
+\raisebox{-1.5\myLenLineHeightButLine}{\color{lightgray}\vrule width 0.4pt height 3\myLenLineHeightButLine}%
 \begin{minipage}[t]{\myLenTriCol}
-  \rule{0pt}{3\myLenLineHeightButLine}%
+  \rule{0pt}{4\myLenLineHeightButLine}%
 \end{minipage}
 \par}
 \nobreak\vspace*{2mm}\nobreak

@@ -1,5 +1,5 @@
 weekstart: 1
-ampmtime: true
+ampmtime: false
 dotted: true
 calafterschedule: false
 addlasthalfhour: true
@@ -24,7 +24,7 @@ layout:
     quarterlylines: 36
     weeklylines: 11
     dailytodos: 8
-    dailynotes: 21
+    dailynotes: 20
     dailypersonal: 6
     dailybottomhour: 6
     dailytophour: 19
